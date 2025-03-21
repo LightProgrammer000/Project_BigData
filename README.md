@@ -1,7 +1,5 @@
 # Project_BigData
 
-![Project Banner](URL_da_imagem_do_banner)
-
 **Project_BigData** é uma solução robusta para o processamento, análise e visualização de grandes volumes de dados. Integrando tecnologias líderes do mercado, este projeto visa transformar dados brutos em insights valiosos.
 
 ## Índice
