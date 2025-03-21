@@ -1,50 +1,55 @@
 # Project_BigData
 
-![Project Banner](URL_da_imagem_do_banner)
+**Project_BigData** é uma solução robusta e eficiente para o processamento e análise de grandes volumes de dados. Com uma estrutura modular, este projeto visa fornecer uma maneira escalável e organizada de lidar com dados, tornando-o ideal para implementar em diversos tipos de sistemas de Big Data.
 
-**Project_BigData** é uma solução dedicada ao processamento e análise de grandes volumes de dados. Organizado de forma modular, o projeto visa facilitar a gestão e o processamento eficiente de dados em diversas etapas.
+## 📑 Índice
 
-## Índice
-
-1. [Sobre o Projeto](#sobre-o-projeto)
+1. [Sobre o Projeto]
 2. [Estrutura do Projeto]
 3. [Tecnologias Utilizadas]
+4. [Como Executar]
+5. [Licença]
+6. [Contato]
 
-## Sobre o Projeto
+## 📝 Sobre o Projeto
 
-O **Project_BigData** foi estruturado para oferecer uma abordagem modular ao processamento de dados, permitindo:
+O **Project_BigData** foi estruturado para proporcionar uma abordagem modular ao processamento de dados, permitindo:
 
-- **Organização Modular**: Separação clara das diferentes etapas do processamento de dados.
-- **Facilidade de Navegação**: Estrutura de diretórios intuitiva para facilitar o desenvolvimento e manutenção.
-- **Escalabilidade**: Capacidade de expandir e integrar novas funcionalidades conforme necessário.
+- **Organização Modular**: Cada etapa do processamento de dados está claramente separada, o que facilita a manutenção e expansão.
+- **Facilidade de Navegação**: A estrutura de diretórios é intuitiva, facilitando o desenvolvimento e compreensão do fluxo de dados.
+- **Escalabilidade**: O projeto é projetado para crescer junto com as necessidades do usuário, permitindo fácil integração de novas funcionalidades.
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
-A estrutura de diretórios do projeto é organizada da seguinte forma:
+A estrutura de diretórios do projeto está organizada da seguinte forma:
 
 
-- **Bibliotecas/**: Contém subdiretórios dedicados a diferentes componentes e funcionalidades do projeto.
-  - **Database/**: Scripts e módulos relacionados ao gerenciamento e interação com bancos de dados.
-  - **ProcessingData1/** e **ProcessingData2/**: Módulos responsáveis pelo processamento de diferentes conjuntos ou tipos de dados.
-  - **Programas/**: Contém programas auxiliares ou scripts específicos utilizados no projeto.
-  - **Report/**: Scripts e templates relacionados à geração de relatórios.
-- **main.py**: Arquivo principal que orquestra a execução dos diferentes módulos do projeto.
-- **ReadMe.txt**: Documento contendo informações adicionais sobre o projeto.
+### Descrição dos Diretórios:
 
-## Tecnologias Utilizadas
+- **Bibliotecas/**: Contém todos os módulos e bibliotecas necessárias para o funcionamento do projeto.
+  - **Database/**: Scripts que lidam com a conexão e manipulação de banco de dados.
+  - **ProcessingData1/** e **ProcessingData2/**: Responsáveis por processar diferentes tipos ou conjuntos de dados.
+  - **Programas/**: Scripts auxiliares que facilitam a execução de tarefas específicas.
+  - **Report/**: Scripts e templates usados para gerar relatórios detalhados sobre os dados processados.
+- **main.py**: Este é o arquivo de execução principal que orquestra o fluxo do projeto, chamando as funções necessárias.
+- **ReadMe.txt**: Documento adicional que pode conter explicações sobre configurações, dependências ou outros detalhes técnicos.
 
-O projeto é desenvolvido utilizando as seguintes tecnologias e ferramentas:
+## 💻 Tecnologias Utilizadas
 
-- **Python**: Linguagem principal para desenvolvimento dos scripts e módulos.
-- **Docker**: Utilizado para containerizar a aplicação, garantindo consistência e facilidade de deployment.
-- **Docker Compose**: Facilita a definição e execução de ambientes multi-container.
-- **[Outras Tecnologias]**: [Descrição das outras tecnologias utilizadas, se houver.]
+O **Project_BigData** foi desenvolvido utilizando as seguintes tecnologias:
 
-## Como Executar
+- **Python**: A principal linguagem de programação utilizada no desenvolvimento do projeto.
+- **Docker**: Ferramenta para containerização, que garante que o projeto seja executado de maneira consistente em qualquer ambiente.
+- **Docker Compose**: Usado para facilitar o gerenciamento de múltiplos containers e orquestrar a execução do projeto.
+- **Outras Tecnologias**: Caso haja o uso de outras tecnologias específicas (por exemplo, bibliotecas como Pandas, NumPy, etc.), inclua-as aqui.
 
-Para executar o **Project_BigData** em seu ambiente local, siga os passos abaixo:
+## 🚀 Como Executar
+
+Para rodar o **Project_BigData** no seu ambiente local, siga os seguintes passos:
 
 1. **Clone o Repositório**:
+
+   Abra seu terminal e execute:
 
    ```bash
    git clone https://github.com/LightProgrammer000/Project_BigData.git
