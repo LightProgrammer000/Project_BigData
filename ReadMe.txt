@@ -1,50 +1,55 @@
 # Project_BigData
 
-**Project_BigData** é uma solução abrangente desenvolvida para processar, analisar e visualizar grandes volumes de dados. Este projeto integra diversas tecnologias e ferramentas de Big Data para fornecer insights valiosos a partir de datasets extensos.
+![Project Banner](URL_da_imagem_do_banner)
+
+**Project_BigData** é uma solução robusta para o processamento, análise e visualização de grandes volumes de dados. Integrando tecnologias líderes do mercado, este projeto visa transformar dados brutos em insights valiosos.
 
 ## Índice
 
-1. [Descrição do Projeto](#descrição-do-projeto)
+1. [Sobre o Projeto](#sobre-o-projeto)
 2. [Arquitetura](#arquitetura)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 4. [Funcionalidades](#funcionalidades)
+5. [Como Executar](#como-executar)
+6. [Contribuições](#contribuições)
+7. [Licença](#licença)
+8. [Contato](#contato)
 
-## Descrição do Projeto
+## Sobre o Projeto
 
-O **Project_BigData** visa fornecer uma plataforma robusta para o processamento e análise de grandes volumes de dados. A solução é composta por:
+O **Project_BigData** foi desenvolvido para:
 
-- **Pipeline de Dados**: Fluxo de ingestão, processamento e armazenamento de dados.
-- **Módulo de Análise**: Ferramentas e algoritmos para análise avançada dos dados.
-- **Interface de Visualização**: Painéis e gráficos interativos para apresentação dos resultados.
+- **Ingestão de Dados**: Coletar dados de diversas fontes em tempo real.
+- **Processamento**: Analisar e transformar dados em larga escala.
+- **Armazenamento**: Gerenciar dados de forma eficiente e escalável.
+- **Visualização**: Apresentar dados através de dashboards interativos.
 
 ## Arquitetura
 
-A arquitetura do projeto é baseada em uma abordagem distribuída, garantindo escalabilidade e eficiência no processamento de dados. Os principais componentes incluem:
+A arquitetura do projeto é composta por:
 
-- **Ingestão de Dados**: Utilização de Apache Kafka para coleta e transmissão de dados em tempo real.
-- **Processamento**: Emprego de Apache Spark para processamento distribuído e análise de dados.
-- **Armazenamento**: Uso de HDFS (Hadoop Distributed File System) para armazenamento escalável e redundante.
-- **Visualização**: Implementação de dashboards interativos com Apache Superset.
+- **Ingestão de Dados**: Utiliza o Apache Kafka para coletar dados em tempo real.
+- **Processamento**: Emprega o Apache Spark para processamento distribuído.
+- **Armazenamento**: O HDFS armazena dados de maneira escalável.
+- **Visualização**: O Apache Superset oferece dashboards interativos.
 
 ## Tecnologias Utilizadas
 
-- **Apache Kafka**: Sistema de mensageria para ingestão de dados em tempo real.
-- **Apache Spark**: Framework para processamento distribuído de dados.
-- **Hadoop HDFS**: Sistema de arquivos distribuído para armazenamento de dados.
-- **Apache Superset**: Plataforma de visualização de dados para criação de dashboards interativos.
-- **Docker**: Contêineres para empacotamento e implantação consistentes dos componentes.
-- **Kubernetes**: Orquestração de contêineres para gerenciamento e escalabilidade.
+- **Apache Kafka**: Sistema de mensageria para ingestão de dados.
+- **Apache Spark**: Framework para processamento distribuído.
+- **Hadoop HDFS**: Sistema de arquivos distribuído.
+- **Apache Superset**: Plataforma de visualização de dados.
+- **Docker**: Contêineres para ambientes consistentes.
+- **Kubernetes**: Orquestração de contêineres para escalabilidade.
 
 ## Funcionalidades
 
-- **Ingestão de Dados em Tempo Real**: Capacidade de coletar e processar dados à medida que são gerados.
-- **Processamento Distribuído**: Análise de grandes volumes de dados de forma paralela e eficiente.
-- **Armazenamento Escalável**: Salvaguarda de dados com alta disponibilidade e redundância.
-- **Visualização Interativa**: Geração de insights através de gráficos e painéis dinâmicos.
+- **Ingestão em Tempo Real**: Coleta contínua de dados.
+- **Processamento Distribuído**: Análise paralela de grandes volumes de dados.
+- **Armazenamento Escalável**: Gerenciamento eficiente de dados.
+- **Visualização Interativa**: Dashboards dinâmicos para insights.
 
 ## Como Executar
-
-Para executar o **Project_BigData** em seu ambiente local ou de desenvolvimento, siga os passos abaixo:
 
 1. **Clone o Repositório**:
 
