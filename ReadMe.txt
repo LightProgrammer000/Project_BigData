@@ -1,28 +1,18 @@
 # Project_BigData
 
-**Project_BigData** é uma solução robusta e eficiente para o processamento e análise de grandes volumes de dados. Com uma estrutura modular, este projeto visa fornecer uma maneira escalável e organizada de lidar com dados, tornando-o ideal para implementar em diversos tipos de sistemas de Big Data.
+**Project_BigData** é uma solução modular projetada para o processamento e análise de grandes volumes de dados. Este projeto visa oferecer uma abordagem organizada e escalável para o gerenciamento de dados, com a possibilidade de integração de novas funcionalidades à medida que as necessidades crescem.
 
-## 📑 Índice
-
-1. [Sobre o Projeto]
-2. [Estrutura do Projeto]
-3. [Tecnologias Utilizadas]
-4. [Como Executar]
-5. [Licença]
-6. [Contato]
-
-## 📝 Sobre o Projeto
+## 1. Sobre o Projeto
 
 O **Project_BigData** foi estruturado para proporcionar uma abordagem modular ao processamento de dados, permitindo:
 
-- **Organização Modular**: Cada etapa do processamento de dados está claramente separada, o que facilita a manutenção e expansão.
-- **Facilidade de Navegação**: A estrutura de diretórios é intuitiva, facilitando o desenvolvimento e compreensão do fluxo de dados.
-- **Escalabilidade**: O projeto é projetado para crescer junto com as necessidades do usuário, permitindo fácil integração de novas funcionalidades.
+- **Organização Modular**: Cada etapa do processamento de dados está separada, facilitando a manutenção e expansão do projeto.
+- **Facilidade de Navegação**: A estrutura de diretórios é intuitiva e facilita o entendimento e desenvolvimento do fluxo de dados.
+- **Escalabilidade**: O projeto é projetado para crescer conforme as necessidades do usuário, permitindo fácil integração de novas funcionalidades.
 
-## 📂 Estrutura do Projeto
+## 2. Estrutura do Projeto
 
 A estrutura de diretórios do projeto está organizada da seguinte forma:
-
 
 ### Descrição dos Diretórios:
 
@@ -34,22 +24,22 @@ A estrutura de diretórios do projeto está organizada da seguinte forma:
 - **main.py**: Este é o arquivo de execução principal que orquestra o fluxo do projeto, chamando as funções necessárias.
 - **ReadMe.txt**: Documento adicional que pode conter explicações sobre configurações, dependências ou outros detalhes técnicos.
 
-## 💻 Tecnologias Utilizadas
+## 3. Tecnologias Utilizadas
 
 O **Project_BigData** foi desenvolvido utilizando as seguintes tecnologias:
 
-- **Python**: A principal linguagem de programação utilizada no desenvolvimento do projeto.
-- **Docker**: Ferramenta para containerização, que garante que o projeto seja executado de maneira consistente em qualquer ambiente.
-- **Docker Compose**: Usado para facilitar o gerenciamento de múltiplos containers e orquestrar a execução do projeto.
-- **Outras Tecnologias**: Caso haja o uso de outras tecnologias específicas (por exemplo, bibliotecas como Pandas, NumPy, etc.), inclua-as aqui.
+- **Python**: Linguagem principal para o desenvolvimento dos scripts e módulos.
+- **Docker**: Ferramenta para containerização, que garante a consistência do ambiente de execução.
+- **Docker Compose**: Utilizado para gerenciar múltiplos containers e facilitar a orquestração do projeto.
+- **Outras Tecnologias**: Caso o projeto use bibliotecas como Pandas, NumPy, etc., você pode incluí-las aqui.
 
-## 🚀 Como Executar
+## 4. Como Executar
 
-Para rodar o **Project_BigData** no seu ambiente local, siga os seguintes passos:
+Para rodar o **Project_BigData** em seu ambiente local, siga os passos abaixo:
 
 1. **Clone o Repositório**:
 
-   Abra seu terminal e execute:
+   Abra seu terminal e execute o seguinte comando para clonar o repositório:
 
    ```bash
    git clone https://github.com/LightProgrammer000/Project_BigData.git
