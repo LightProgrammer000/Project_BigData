@@ -2,54 +2,47 @@
 
 ![Project Banner](URL_da_imagem_do_banner)
 
-**Project_BigData** é uma solução robusta para o processamento, análise e visualização de grandes volumes de dados. Integrando tecnologias líderes do mercado, este projeto visa transformar dados brutos em insights valiosos.
+**Project_BigData** é uma solução dedicada ao processamento e análise de grandes volumes de dados. Organizado de forma modular, o projeto visa facilitar a gestão e o processamento eficiente de dados em diversas etapas.
 
 ## Índice
 
 1. [Sobre o Projeto](#sobre-o-projeto)
-2. [Arquitetura](#arquitetura)
-3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-4. [Funcionalidades](#funcionalidades)
-5. [Como Executar](#como-executar)
-6. [Contribuições](#contribuições)
-7. [Licença](#licença)
-8. [Contato](#contato)
+2. [Estrutura do Projeto]
+3. [Tecnologias Utilizadas]
 
 ## Sobre o Projeto
 
-O **Project_BigData** foi desenvolvido para:
+O **Project_BigData** foi estruturado para oferecer uma abordagem modular ao processamento de dados, permitindo:
 
-- **Ingestão de Dados**: Coletar dados de diversas fontes em tempo real.
-- **Processamento**: Analisar e transformar dados em larga escala.
-- **Armazenamento**: Gerenciar dados de forma eficiente e escalável.
-- **Visualização**: Apresentar dados através de dashboards interativos.
+- **Organização Modular**: Separação clara das diferentes etapas do processamento de dados.
+- **Facilidade de Navegação**: Estrutura de diretórios intuitiva para facilitar o desenvolvimento e manutenção.
+- **Escalabilidade**: Capacidade de expandir e integrar novas funcionalidades conforme necessário.
 
-## Arquitetura
+## Estrutura do Projeto
 
-A arquitetura do projeto é composta por:
+A estrutura de diretórios do projeto é organizada da seguinte forma:
 
-- **Ingestão de Dados**: Utiliza o Apache Kafka para coletar dados em tempo real.
-- **Processamento**: Emprega o Apache Spark para processamento distribuído.
-- **Armazenamento**: O HDFS armazena dados de maneira escalável.
-- **Visualização**: O Apache Superset oferece dashboards interativos.
+
+- **Bibliotecas/**: Contém subdiretórios dedicados a diferentes componentes e funcionalidades do projeto.
+  - **Database/**: Scripts e módulos relacionados ao gerenciamento e interação com bancos de dados.
+  - **ProcessingData1/** e **ProcessingData2/**: Módulos responsáveis pelo processamento de diferentes conjuntos ou tipos de dados.
+  - **Programas/**: Contém programas auxiliares ou scripts específicos utilizados no projeto.
+  - **Report/**: Scripts e templates relacionados à geração de relatórios.
+- **main.py**: Arquivo principal que orquestra a execução dos diferentes módulos do projeto.
+- **ReadMe.txt**: Documento contendo informações adicionais sobre o projeto.
 
 ## Tecnologias Utilizadas
 
-- **Apache Kafka**: Sistema de mensageria para ingestão de dados.
-- **Apache Spark**: Framework para processamento distribuído.
-- **Hadoop HDFS**: Sistema de arquivos distribuído.
-- **Apache Superset**: Plataforma de visualização de dados.
-- **Docker**: Contêineres para ambientes consistentes.
-- **Kubernetes**: Orquestração de contêineres para escalabilidade.
+O projeto é desenvolvido utilizando as seguintes tecnologias e ferramentas:
 
-## Funcionalidades
-
-- **Ingestão em Tempo Real**: Coleta contínua de dados.
-- **Processamento Distribuído**: Análise paralela de grandes volumes de dados.
-- **Armazenamento Escalável**: Gerenciamento eficiente de dados.
-- **Visualização Interativa**: Dashboards dinâmicos para insights.
+- **Python**: Linguagem principal para desenvolvimento dos scripts e módulos.
+- **Docker**: Utilizado para containerizar a aplicação, garantindo consistência e facilidade de deployment.
+- **Docker Compose**: Facilita a definição e execução de ambientes multi-container.
+- **[Outras Tecnologias]**: [Descrição das outras tecnologias utilizadas, se houver.]
 
 ## Como Executar
+
+Para executar o **Project_BigData** em seu ambiente local, siga os passos abaixo:
 
 1. **Clone o Repositório**:
 
